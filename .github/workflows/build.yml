@@ -7,7 +7,7 @@ on:
     paths-ignore:
       - "**.md"  
   schedule:
-    - cron: "28 20 * * *" # 每天 UTC 20:28 (北京时间 CST 04:28)
+    - cron: "06 19 * * *" # 每天 UTC 19:06 (北京时间 CST 03:06)
   workflow_dispatch:
     inputs:
       build_iso:

@@ -15,6 +15,7 @@ RUN dnf install -y --setopt=install_weak_deps=False \
 
 # 3. 安装指定的 RPM 软件包
 RUN dnf install -y \
+    7zip \
     adwaita-cursor-theme \
     adwaita-icon-theme \
     btop \
